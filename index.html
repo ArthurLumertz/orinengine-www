@@ -1,1 +1,82 @@
-<!doctype html><html lang="en"><head><meta charset="UTF-8"/><meta name="viewport" content="width=device-width,initial-scale=1"/><title>Orin Framework</title><script defer="defer" src="static/js/main.4446dc2f.js"></script><link href="static/css/main.220adff1.css" rel="stylesheet"></head><body><div id="root"></div></body></html>
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Document</title>
+		<script src="https://cdn.tailwindcss.com"></script>
+		<link rel="stylesheet" href="style.css" />
+	</head>
+	<body>
+		<div class="w-full h-screen bg-zinc-200 flex flex-col">
+			<div
+				class="w-full h-[72px] bg-white shadow flex items-center justify-around mb-20"
+			>
+				<div
+					class="text-2xl font-bold cursor-pointer select-none"
+					onclick='javascript:document.location="index.html";'
+				>
+					OrinFramework
+				</div>
+
+				<div class="flex gap-8">
+					<div
+						class="hover:underline decoration-2 cursor-pointer text-slate-700"
+						onclick='javascript:document.location="https://github.com/ArthurLumertz/orinframework/tree/main/examples";'
+					>
+						Examples
+					</div>
+					<div
+						class="hover:underline decoration-2 cursor-pointer text-slate-700"
+						onclick='javascript:document.location="https://github.com/ArthurLumertz/orinframework/tree/main/src";'
+					>
+						Download
+					</div>
+					<div
+						class="hover:underline decoration-2 cursor-pointer text-slate-700"
+						onclick='javascript:document.location="https://github.com/ArthurLumertz/orinframework";'
+					>
+						GitHub
+					</div>
+				</div>
+			</div>
+
+			<div class="w-full flex justify-center items-center flex-col">
+				<h1 class="text-slate-800 text-5xl font-bold mb-10">
+					Orin - C++ Game Framework
+				</h1>
+				<div
+					class="w-1/2 flex flex-col gap-3 items-center text-center text-slate-600"
+				>
+					<p>A C++ game framework built with OpenGL.</p>
+					<p>
+						Similar to LibGDX, RayLib, and MonoGame, Orin provides a simple and
+						effective way to build games using OpenGL.
+					</p>
+					<!-- <button
+						class="border-2 border-zinc-300 text-slate-800 hover:bg-black/5 rounded-xl px-3 py-1 font-medium mt-3"
+						onclick='javascript:document.location="get_started.html";'
+					>
+						Get Started
+					</button> -->
+				</div>
+
+				<h1 class="text-slate-700 text-2xl font-bold mt-16 mb-10">
+					Why Choose Orin?
+				</h1>
+				<ul class="list-disc text-slate-500 text-center">
+					<li class="pl-8">Support for Textures and Basic Shapes</li>
+					<li class="pl-8">Lightweight and Easy to Integrate</li>
+					<li class="pl-8">Optimized for Performance</li>
+					<li class="pl-8">Open Source and Actively Maintained</li>
+				</ul>
+			</div>
+
+			<div
+				class="text-slate-400 w-full absolute bottom-5 flex justify-center items-center text-center"
+			>
+				Orin Framework &copy; 2025
+			</div>
+		</div>
+	</body>
+</html>
